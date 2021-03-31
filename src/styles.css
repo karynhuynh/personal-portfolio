@@ -74,7 +74,7 @@ h1 {
   background: linear-gradient(415deg, #eaceb4, #e79e85);
 }
 
-span {
+.box span {
   position: absolute;
   top: 6px;
   left: 6px;
@@ -84,7 +84,7 @@ span {
   z-index: 2;
 }
 
-span::before {
+.box span::before {
   top: 0;
   left: 0;
   width: 50%;
