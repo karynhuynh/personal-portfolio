@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">Karyn Huynh</a>
       <button
         class="navbar-toggler"
@@ -43,8 +43,8 @@
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="index.html">Home</a>
           <a class="nav-item nav-link" href="about.html#about">About Me</a>
-          <a class="nav-item nav-link" href="about.html#projects">Projects</a>
-          <a class="nav-item nav-link" href="about.html#contact">Contact Me</a>
+          <a class="nav-item nav-link" href="about.html#project">Project</a>
+          <a class="nav-item nav-link" href="about.html#contact">Contact</a>
         </div>
       </div>
     </nav>
@@ -54,9 +54,55 @@
     <h5 class="text-center mt-5">Skills</h5>
 
     <!-- Projects -->
-    <h1 class="text-center" id="projects">Projects</h1>
+    <h1 class="text-center" id="project">Projects</h1>
+    <div class="project-container">
+      <div class="project">
+        <div class="project-image">
+          <img
+            src="images/weather-app.png"
+            alt="wanderlust-page"
+            class="img-fluid border"
+          />
+        </div>
+        <div class="project-description">
+          <h2 class="mt-5 mx-5">Weather Application</h2>
+          <p class="mt-4 mx-5">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+            omnis veritatis sed praesentium ullam inventore aperiam consectetur.
+            Rem asperiores error corporis cumque maiores ipsam eveniet quibusdam
+            eligendi, commodi reprehenderit saepe.
+          </p>
+          <a
+            href="https://competent-golick-afb88d.netlify.app/"
+            class="mx-5 mt-5"
+            >Launch Weather App</a
+          >
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-description" id="wanderlust-description">
+          <h2 class="mt-5">Wanderlust</h2>
+          <p class="mt-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+            omnis veritatis sed praesentium ullam inventore aperiam consectetur.
+            Rem asperiores error corporis cumque maiores ipsam eveniet quibusdam
+            eligendi, commodi reprehenderit saepe.
+          </p>
+          <a href="https://dreamy-kowalevski-f56c72.netlify.app/" class="mt-5"
+            >Launch Wanderlust Page</a
+          >
+        </div>
+        <div class="project-image" id="wanderlust-image">
+          <img
+            src="images/landing-page.png"
+            alt="wanderlust-page"
+            class="img-fluid border"
+          />
+        </div>
+      </div>
+    </div>
 
     <!-- Contact Me -->
-    <h1 class="text-center" id="contact">Contact Me</h1>
+    <h1 class="text-center" id="contact">Contact</h1>
   </body>
 </html>
