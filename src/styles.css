@@ -116,7 +116,11 @@ h1 {
   margin-top: 50px;
 }
 
-@media (max-width: 600px) {
+#wanderlust-image {
+  margin-left: 35px;
+}
+
+@media (max-width: 700px) {
   .project-container {
     margin: 80px 0px;
   }
@@ -141,5 +145,10 @@ h1 {
 
   #wanderlust-image {
     margin: 0px 50px 50px 50px;
+  }
+
+  .project-container a {
+    display: block;
+    margin: 0 auto;
   }
 }
