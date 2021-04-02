@@ -23,28 +23,34 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/6de984ddb1.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">Karyn Huynh</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html">Home</a>
-          <a class="nav-item nav-link" href="about.html#about">About Me</a>
-          <a class="nav-item nav-link" href="about.html#projects">Projects</a>
-          <a class="nav-item nav-link" href="about.html#contact">Contact</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Karyn Huynh</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html#about">About Me</a>
+            <a class="nav-link" href="about.html#projects">Projects</a>
+            <a class="nav-link" href="about.html#contact">Contact</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -55,7 +61,7 @@
 
     <!-- Projects -->
     <h1 class="text-center" id="projects">Projects</h1>
-    <div class="project-container">
+    <!-- <div class="project-container">
       <div class="project">
         <div class="project-image">
           <img
@@ -65,8 +71,8 @@
           />
         </div>
         <div class="project-description">
-          <h2 class="mt-5 mx-5">Weather Application</h2>
-          <p class="mt-4 mx-5">
+          <h2>Weather Application</h2>
+          <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
             omnis veritatis sed praesentium ullam inventore aperiam consectetur.
             Rem asperiores error corporis cumque maiores ipsam eveniet quibusdam
@@ -74,15 +80,15 @@
           </p>
           <a
             href="https://competent-golick-afb88d.netlify.app/"
-            class="btn btn-outline-dark mx-5 mt-4 project-link"
+            class="btn btn-outline-dark project-link"
             >Launch Weather App</a
           >
         </div>
       </div>
       <div class="project">
         <div class="project-description" id="wanderlust-description">
-          <h2 class="mt-5">Wanderlust</h2>
-          <p class="mt-4">
+          <h2>Wanderlust</h2>
+          <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
             omnis veritatis sed praesentium ullam inventore aperiam consectetur.
             Rem asperiores error corporis cumque maiores ipsam eveniet quibusdam
@@ -90,7 +96,7 @@
           </p>
           <a
             href="https://dreamy-kowalevski-f56c72.netlify.app/"
-            class="btn btn-outline-dark mt-4 project-link"
+            class="btn btn-outline-dark project-link"
             >Launch Wanderlust Page</a
           >
         </div>
@@ -102,9 +108,19 @@
           />
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Contact Me -->
     <h1 class="text-center" id="contact">Contact</h1>
+    <div class="contact-information">
+      <a href=""><i class="fab fa-github-alt contact-icons"></i></a>
+      <a href=""><i class="fab fa-linkedin-in contact-icons"></i></a>
+      <a href=""><i class="fab fa-instagram contact-icons"></i></a>
+      <p>
+        <a href="mailto:karynkhuynh@gmail.com" class="email-address"
+          >karynkhuynh@gmail.com</a
+        >
+      </p>
+    </div>
   </body>
 </html>
