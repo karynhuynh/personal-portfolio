@@ -107,6 +107,15 @@ h1 {
   padding: 10px;
 }
 
+.project-container {
+  margin: 60px 250px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+}
+
 .contact-information {
   text-align: center;
 }
@@ -117,6 +126,10 @@ h1 {
   padding: 0px 6px;
 }
 
+.contact-icons:hover {
+  color: #bb5a5a;
+}
+
 .contact-information p {
   margin-top: 40px;
 }
@@ -125,8 +138,19 @@ h1 {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
+  color: black;
 }
 
 .email-address:hover {
-  color: red;
+  color: #bb5a5a;
+}
+
+@media (max-width: 580px) {
+  .project-container {
+    margin: 0;
+  }
+
+  .project {
+    align-items: flex-start;
+  }
 }
