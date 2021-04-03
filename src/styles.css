@@ -1,6 +1,7 @@
 :root {
   --primary-background: #fcfcfb;
   --border-color: #dadde1;
+  --hover-color: #bb5a5a;
 }
 
 * {
@@ -123,43 +124,38 @@ h1 {
 }
 
 .project {
-  width: 320px;
-  height: 320px;
+  max-width: 320px;
+  max-height: 320px;
   border: 1px solid var(--border-color);
   margin: 7px;
   text-align: center;
 }
-.contact-information {
+
+.connect-information {
   text-align: center;
 }
 
-.contact-icons {
-  font-size: 30px;
+.connect-icons {
+  font-size: 25px;
   color: black;
-  padding: 0px 6px;
+  padding: 0px 5px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
-.contact-icons:hover {
-  color: #bb5a5a;
-}
-
-.contact-information p {
-  margin-top: 40px;
+.connect-icons:hover {
+  color: var(--hover-color);
 }
 
 .email-address {
   text-decoration: none;
   font-size: 18px;
-  font-weight: 600;
   color: black;
 }
 
-.email-address:hover {
-  color: #bb5a5a;
-}
-
-@media (max-width: 780px) {
+@media (max-width: 800px) {
   .project-container {
+    margin: 20px 50px;
     flex-direction: column;
     align-items: center;
   }
