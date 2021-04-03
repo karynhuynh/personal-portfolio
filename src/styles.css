@@ -1,5 +1,6 @@
 :root {
   --primary-background: #fcfcfb;
+  --border-color: #dadde1;
 }
 
 * {
@@ -108,17 +109,26 @@ h1 {
 }
 
 .project-container {
-  margin: 0 300px;
+  margin: 0 200px;
+  display: flex;
+  justify-content: center;
 }
 
-/* .project-container img {
+.project-container img {
   filter: grayscale(1);
 }
 
 .project-container img:hover {
   filter: none;
-} */
+}
 
+.project {
+  width: 320px;
+  height: 320px;
+  border: 1px solid var(--border-color);
+  margin: 7px;
+  text-align: center;
+}
 .contact-information {
   text-align: center;
 }
@@ -150,6 +160,7 @@ h1 {
 
 @media (max-width: 780px) {
   .project-container {
-    margin: 20px 50px 0px 50px;
+    flex-direction: column;
+    align-items: center;
   }
 }
