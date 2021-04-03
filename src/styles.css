@@ -109,6 +109,10 @@ h1 {
   padding: 10px;
 }
 
+#connect-link {
+  margin-top: 70px;
+}
+
 .project-container {
   margin: 0 200px;
   display: flex;
@@ -143,13 +147,14 @@ h1 {
   margin-bottom: 40px;
 }
 
-.connect-icons:hover {
+.navigation-link:hover,
+.connect-icons:hover,
+.email-address:hover {
   color: var(--hover-color);
 }
 
 .email-address {
   text-decoration: none;
-  font-size: 18px;
   color: black;
 }
 
