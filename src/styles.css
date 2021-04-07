@@ -118,6 +118,13 @@ h1 {
   border-radius: 100px;
 }
 
+/* .skills-section-header,
+.experience-section-header {
+  margin-left: 300px;
+  color: var(--hover-color);
+  text-transform: uppercase;
+} */
+
 .skills-container {
   display: flex;
   flex-direction: row;
@@ -147,7 +154,7 @@ h1 {
 
 .project-container img,
 .personal-photo {
-  filter: grayscale(1);
+  filter: grayscale(7);
 }
 
 .project-container img:hover {
@@ -186,11 +193,15 @@ h1 {
 }
 
 @media (max-width: 900px) {
+  .skills-section-header,
+  .experience-section-header {
+    margin-left: 20px;
+  }
+
   .skills-category {
     margin: 0 10px;
   }
 
-  
   .project-container {
     margin: 20px 50px;
     flex-direction: column;

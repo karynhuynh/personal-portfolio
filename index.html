@@ -25,55 +25,219 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/6de984ddb1.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/styles.css" />
-  </head>
   <body>
-    <h1 class="text-center">Hello, I'm Karyn.</h1>
-    <div class="container">
-      <div class="box">
-        <span></span>
-        <div class="content">
-          <h2 class="text-center">About Me</h2>
-          <p class="mt-4">
-            I am based in California. Currently, I am a Information Support
-            Coordinator at San Francisco State University focused on
-            streamlining technical processes and providing technical support for
-            students in, and seeking to be a part of, the Student Housing
-            Program.
-          </p>
-          <a href="about.html#about" class="navigation-link mt-4">Read More</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Karyn Huynh</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html#about">About</a>
+            <a class="nav-link" href="index.html#projects">Work</a>
+            <a class="nav-link" href="index.html#connect">Connect</a>
+          </div>
         </div>
       </div>
-      <div class="box">
-        <span></span>
-        <div class="content">
-          <h2 class="text-center">Projects</h2>
-          <p class="mt-4">
-            Karyn...what did you do? Thanks to SheCodes, I've had the privilege
-            to learn and complete various projects. My goal, for any project, is
-            to build applications that are efficient while providing the user a
-            memorable and engaging experience.
-          </p>
-          <a href="about.html#projects" class="navigation-link mt-5">Explore</a>
+    </nav>
+
+<!-- Main page -->
+
+<section class="main-background">
+    <div class="main-container">
+        <div class="main-photo">
+            <img src="images/main-background.png" alt="" class="main-background">
         </div>
-      </div>
-      <div class="box">
-        <span></span>
-        <div class="content">
-          <h2 class="text-center">Connect</h2>
-          <p class="mt-4">
-            I am open to seeking new opportunities and connecting with people to
-            build accessible and inclusive digital experiences. To get in touch,
-            email me at
-            <a href="mailto:karynkhuynh@gmail.com" class="email-address"
-              >karynkhuynh@gmail.com</a
-            >
-          </p>
-          <a href="about.html#connect" class="navigation-link" id="connect-link"
-            >Say Hello</a
-          >
+        <div class="main-content">
+            <h1>Karyn Huynh</h1>
+            <h4>Web developer and UX Enthusiast</h4>
         </div>
-      </div>
     </div>
+</section>
+
+    <!-- About Me -->
+
+    <section class="about-background">
+      <h1 class="about-header text-center" id="about">A little bit about me</h1>
+      <div class="about-container">
+        <div class="about-intro">
+          <div class="about-photo">
+            <img src="images/photo.jpg" alt="headshot"/>
+          </div>
+          <div class="about-content">
+            <h2 class="intro-header mb-3">
+              <strong>Hi! I'm Karyn.</strong>
+            </h2>
+            <p>I am based in California and am a web developer with a passion for front-end development.</p>
+            <p>Currently, I am a Information Support
+              Coordinator at SF State University focused on streamlining technical
+              processes and providing technical support for students in, and
+              seeking to be a part of, the Student Housing Program.</p>
+          </div>
+        </div> 
+        <div class="about-skills">
+          <div class="skills">
+            <div class="skills-header">
+                <p>Skills</p>
+            </div>
+            <div class="skills-category">
+              <div class="skills-label-main mb-2">
+                <i class="fas fa-cog about-icons"></i> Languages
+              </div>
+              <ul>
+                <li>JavaScript (ES6)</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+              </ul>
+            </div>
+            <div class="skills-category">
+              <div class="skills-label-main mb-2">
+                <i class="far fa-lightbulb about-icons"></i>
+                      Knowledge
+              </div>
+               <ul>
+                <li>API</li>
+                <li>SEO</li>
+                <li>Wireframing</li>
+                </ul>
+            </div>  
+            <div class="skills-category">
+              <div class="skills-label-main mb-2">
+                <i class="fas fa-tools about-icons"></i> Tools
+              </div>
+              <ul>
+                <li>Git + Github</li>
+                <li>Netlify</li>
+                <li>Visual Studio Code</li>
+                <li>InVision</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience-header">
+              Experience
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section class="projects-content">
+      <h1 class="projects-main-header text-center mb-5" id="projects">
+        What I've done
+      </h1>
+      <div class="projects-container">
+        <div class="projects">
+          <div class="projects-image">
+            <img src="images/weather-widget.png" alt="weather app page" />
+          </div>
+          <div class="projects-info">
+            <div class="content">
+              <div class="projects-links">
+                <a href=""><i class="fab fa-github"></i></a>
+                <span>
+                  <a href=""><i class="fas fa-external-link-alt"></i></a>
+                </span>
+              </div>
+              <h4 class="projects-section-header">Weather Widget</h4>
+              <p>
+                A weather application that I created during the SheCodes Plus
+                Workshop. I used the OpenWeatherMap API to get the daily weather
+                and forecast data and then used their weather ID system to
+                coordinate corresponding backgrounds for each weather
+                description.
+              </p>
+              <p>Built with JS, HTML, CSS, and Bootstrap</p>
+            </div>
+          </div>
+        </div>
+        <div class="projects">
+          <div class="projects-image">
+            <img src="images/landing-page.png" alt="wanderlust landing page" />
+          </div>
+          <div class="projects-info">
+            <div class="content">
+                <div class="projects-links">
+                    <a href=""><i class="fab fa-github"></i></a>
+                    <span>
+                      <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </span>
+                  </div>
+              <h4 class="projects-section-header">Wanderlust
+              </h4>
+              <p>
+                A simple landing page that I built during the SheCodes
+                Introductory Workshop.
+              </p>
+              <p>Built with JS, HTML, and CSS</p>
+            </div>
+          </div>
+        </div>
+        <div class="projects">
+          <div class="projects-image">
+            <img src="images/personal-portfolio.png" alt="personal portfolio page" />
+          </div>
+          <div class="projects-info">
+            <div class="content">
+                <div class="projects-links">
+                    <a href=""><i class="fab fa-github"></i></a>
+                    <span>
+                      <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </span>
+                  </div>
+              <h4 class="projects-section-header">Personal Portfolio</h4>
+              <p>
+                My first portfolio website that I designed during the SheCodes
+                Responsive Workshop. During the process, I learned quite a bit
+                about responsive web design and SEO.
+              </p>
+              <p>Built with HTML, CSS, and Bootstrap</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+    <footer class="connect-information text-center">
+      <h1 class="connect-header" id="connect">Connect</h1>
+      <p class="mt-3">
+        My inbox is always open. Whether you want to colloborate or just want to
+        say hi, I'll try to get back to you as soon as I can.
+      </p>
+
+      <div class="social-links">
+        <a href="mailto:karynkhuynh@gmail.com"
+          ><i class="far fa-envelope connect-icons"></i
+        ></a>
+        <a href="https://github.com/karynhuynh" alt="github-link"
+          ><i class="fab fa-github connect-icons"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/karyn-huynh-a796149a/"
+          alt="linkedin-link"
+          ><i class="fab fa-linkedin-in connect-icons"></i
+        ></a>
+        <a href="https://www.instagram.com/karynhuynh/" alt="instagram-link"
+          ><i class="fab fa-instagram connect-icons"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
