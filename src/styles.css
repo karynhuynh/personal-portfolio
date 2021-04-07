@@ -25,8 +25,7 @@ body {
 }
 
 .main-background {
-  width: 1910px;
-  height: 1200px;
+  width: 1450px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +39,7 @@ body {
   height: 100%;
   z-index: 100;
   transform: translateX(50%);
-  transform: translateY(35%);
+  transform: translateY(40%);
   text-align: center;
 }
 
@@ -85,9 +84,8 @@ body {
   filter: grayscale(7);
 }
 
-.about-content p,
-.connect-information p {
-  font-size: 18px;
+.about-photo img {
+  width: 300px;
 }
 
 .about-icons {
@@ -98,11 +96,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .skills-header,
-.experience-header,
-.skills-category {
+.experience-main-header,
+.skills-category,
+.experience-category {
   margin: 0 30px;
 }
 
@@ -112,14 +112,26 @@ body {
 
 .skills-header,
 .skills-label-main,
-.experience-header {
+.experience-main-header {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
 }
 
+.experience-main-header {
+  margin-bottom: 20px;
+}
+
 .experience {
   margin-top: 50px;
+}
+
+.experience-category {
+  display: flex;
+}
+
+.experience-header h5 {
+  margin-bottom: 0;
 }
 
 .projects-container {
@@ -134,9 +146,9 @@ body {
 .projects {
   border: 1px solid var(--border-color);
   position: relative;
-  width: 325px;
-  height: 325px;
-  margin: 20px;
+  width: 320px;
+  height: 320px;
+  margin: 13px;
   overflow: hidden;
   border-radius: 3px;
 }
@@ -212,15 +224,20 @@ body {
   color: var(--hover-color);
 }
 
+.about-header,
 .projects-main-header,
 .connect-header {
   font-size: 50px;
-  margin-top: 110px;
-  margin-bottom: 50px;
+  margin-top: 200px;
+  margin-bottom: 70px;
+}
+
+.connect-header {
+  margin-bottom: 40px;
 }
 
 .connect-information {
-  width: 600px;
+  width: 450px;
   display: block;
   margin: 0 auto;
 }
@@ -228,9 +245,9 @@ body {
 .connect-icons {
   font-size: 25px;
   color: var(--primary-color);
-  padding: 0px 5px;
-  margin-top: 50px;
-  margin-bottom: 60px;
+  padding: 0px 15px;
+  margin-top: 70px;
+  margin-bottom: 100px;
 }
 
 .connect-icons:hover {
@@ -245,7 +262,7 @@ body {
 
   .main-content {
     transform: translateX(0%);
-    transform: translateY(50%);
+    transform: translateY(35%);
   }
 
   .intro-container {
@@ -263,12 +280,24 @@ body {
     padding: 0;
   }
 
+  .about-intro {
+    margin-right: 0;
+  }
+
   .about-skills {
     margin-top: 50px;
   }
 
+  .skills {
+    margin-top: 0;
+  }
+
   .skills-category {
     margin: 0 10px;
+  }
+
+  .experience {
+    margin-top: 20px;
   }
 
   .projects-container {
@@ -276,5 +305,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .about-header,
+  .projects-main-header,
+  .connect-header {
+    margin-top: 50px;
   }
 }
