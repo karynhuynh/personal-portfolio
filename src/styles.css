@@ -51,7 +51,6 @@ body {
   align-items: center;
   padding: 30px;
   border-radius: 3px;
-
   color: black;
   background: var(--primary-color);
   margin-right: 40px;
@@ -69,7 +68,7 @@ body {
 }
 
 .about-content {
-  width: 350px;
+  width: 330px;
   margin-top: 30px;
 }
 
@@ -87,7 +86,7 @@ body {
 }
 
 .about-skills {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .skills {
@@ -112,9 +111,9 @@ body {
 .experience-main-header {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 20px;
 }
 
+.skills-header,
 .experience-main-header {
   margin-bottom: 20px;
 }
@@ -273,7 +272,7 @@ body {
   }
 
   .skills {
-    margin-top: 60px;
+    margin-top: 20px;
   }
 
   .skills-category {
@@ -295,6 +294,6 @@ body {
   .about-header,
   .projects-main-header,
   .connect-header {
-    margin-top: 50px;
+    margin-top: 70px;
   }
 }
