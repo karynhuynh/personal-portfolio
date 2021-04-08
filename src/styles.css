@@ -73,7 +73,7 @@ body {
 }
 
 .about-photo img,
-.projects-image img {
+.work-image img {
   filter: grayscale(7);
 }
 
@@ -131,7 +131,7 @@ body {
   margin-bottom: 0;
 }
 
-.projects-container {
+.work-container {
   margin: 0 150px;
   position: relative;
   display: flex;
@@ -140,7 +140,7 @@ body {
   flex-wrap: wrap;
 }
 
-.projects {
+.work {
   border: 1px solid var(--border-color);
   position: relative;
   width: 330px;
@@ -150,8 +150,8 @@ body {
   border-radius: 3px;
 }
 
-.projects-image,
-.projects-info {
+.work-image,
+.work-info {
   position: absolute;
   top: 0;
   left: 0;
@@ -159,7 +159,7 @@ body {
   height: 100%;
 }
 
-.projects-image img {
+.work-image img {
   position: absolute;
   top: 0;
   left: 0;
@@ -168,7 +168,7 @@ body {
   object-fit: fill;
 }
 
-.projects .projects-info::before {
+.work .work-info::before {
   content: "";
   position: absolute;
   top: 0;
@@ -182,14 +182,14 @@ body {
   transition-delay: 0.5s;
 }
 
-.projects:hover .projects-info::before {
+.work:hover .work-info::before {
   transform: scaleX(1);
   transition: transform 0.5s ease-in-out;
   transform-origin: left;
   transition-delay: 0s;
 }
 
-.projects-info {
+.work-info {
   display: flex;
 }
 
@@ -207,24 +207,24 @@ body {
   margin-bottom: 10px;
 }
 
-.projects-container .projects:hover .projects-info .content {
+.work-container .work:hover .work-info .content {
   transform: translateX(0px);
 }
 
-.projects-section-header {
+.work-section-header {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.projects-links a {
+.work-links a {
   color: black;
   padding-right: 10px;
   font-size: 20px;
 }
 
 .about-header,
-.projects-main-header,
+.work-main-header,
 .connect-header {
   font-size: 50px;
   margin-top: 250px;
@@ -246,7 +246,7 @@ body {
   margin-bottom: 200px;
 }
 
-.projects-links a:hover,
+.work-links a:hover,
 .connect-icons:hover {
   color: var(--secondary-color);
 }
@@ -283,7 +283,7 @@ body {
     margin-top: 20px;
   }
 
-  .projects-container {
+  .work-container {
     margin: 20px 50px;
     flex-direction: column;
     justify-content: center;
@@ -292,7 +292,7 @@ body {
 
   .about-skills,
   .about-header,
-  .projects-main-header,
+  .work-main-header,
   .connect-header {
     margin-top: 70px;
   }
