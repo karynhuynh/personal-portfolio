@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   background: black;
   color: var(--primary-color);
 }
@@ -160,7 +160,7 @@ body {
 }
 
 .work .work-info::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -186,7 +186,7 @@ body {
 
 .content {
   position: relative;
-  padding: 25px;
+  padding: 30px;
   z-index: 1;
   transition: 0.5s;
   transform: translateX(-300px);
