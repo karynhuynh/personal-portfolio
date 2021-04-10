@@ -69,7 +69,7 @@ body {
 }
 
 .about-content {
-  width: 350px;
+  width: 370px;
   margin-top: 30px;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .about-skills {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .skills {
@@ -112,6 +112,10 @@ body {
 
 .experience {
   margin-top: 20px;
+}
+
+.experience-main-header {
+  margin-top: 15px;
 }
 
 .experience-category {
