@@ -143,7 +143,7 @@ body {
   position: relative;
   width: 330px;
   height: 330px;
-  margin: 15px;
+  margin: 20px;
   overflow: hidden;
   border-radius: 3px;
 }
@@ -271,6 +271,10 @@ body {
     padding: 0;
   }
 
+  .about-header {
+    margin-top: 150px;
+  }
+
   .about-intro {
     margin-right: 0;
   }
@@ -288,7 +292,6 @@ body {
   }
 
   .about-skills,
-  .about-header,
   .work-main-header,
   .connect-header {
     margin-top: 70px;
