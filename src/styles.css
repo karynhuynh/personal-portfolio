@@ -130,7 +130,10 @@ body {
 }
 
 .work-container {
-  margin: 0 150px 200px 150px;
+  /* margin: 0 150px 200px 150px; */
+  margin: 0 auto;
+  margin-bottom: 200px;
+  max-width: 1200px;
   position: relative;
   display: flex;
   justify-content: center;
