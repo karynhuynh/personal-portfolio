@@ -20,7 +20,7 @@ body {
   background: url(../images/main-background.jpeg);
   background-size: cover;
   background-position: center;
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
 }
 
 .main-content {
