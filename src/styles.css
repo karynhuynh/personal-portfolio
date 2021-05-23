@@ -37,6 +37,7 @@ body {
 
 .main-content h1 {
   font-size: 90px;
+  text-transform: uppercase;
 }
 
 .more-text {
@@ -96,6 +97,11 @@ body {
 .about-content {
   width: 350px;
   margin-top: 30px;
+}
+
+.skills-icons {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .work-image img,
@@ -242,7 +248,7 @@ body {
   display: block;
   margin: 0 auto;
   text-align: center;
-  width: 500px;
+  max-width: 500px;
   margin-top: 130px;
   padding: 30px;
   transition: 0.5s;
