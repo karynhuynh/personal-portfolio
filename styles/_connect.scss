@@ -1,0 +1,29 @@
+$margin: 70px 0;
+
+.connect-information {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+  margin-top: 130px;
+  padding: 30px;
+  transition: 0.5s;
+  &:hover {
+    transform: translateY(-25px);
+  }
+  h1 {
+    margin: $margin;
+    text-transform: uppercase;
+  }
+  .connect-icons {
+    font-size: 30px;
+    color: #000;
+    padding: 0px 20px;
+    margin: $margin;
+    &:hover {
+      color: #5e6043;
+    }
+  }
+}
