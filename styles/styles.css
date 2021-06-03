@@ -89,4 +89,79 @@ body {
 .connect-information .connect-icons:hover {
   color: #5e6043;
 }
+
+.about-header {
+  font-size: 50px;
+  margin: 150px 0 70px 0;
+  text-transform: uppercase;
+}
+
+.about-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-container .about-intro {
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15), 0px 0px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15), 0px 0px 5px rgba(0, 0, 0, 0.15);
+  margin-right: 25px;
+}
+
+.about-container .about-photo img {
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-container .about-content {
+  max-width: 350px;
+  margin-top: 30px;
+}
+
+.about-container .skills-icons {
+  max-width: 500px;
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.about-container .skill-icon {
+  margin: 0 0 35px 20px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.about-container .skill-icon:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.about-container .about-skills {
+  margin: 50px 0 50px 60px;
+}
+
+.about-container .skills-header h4 {
+  margin-bottom: 50px;
+}
+
+.about-container .skills-header h4,
+.about-container .about-resume h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about-container .about-resume h4 {
+  margin: 50px 0 50px 0;
+}
 /*# sourceMappingURL=styles.css.map */

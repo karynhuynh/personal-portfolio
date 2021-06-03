@@ -23,7 +23,7 @@ body {
   background-repeat: no-repeat;
 } */
 
-.main-content {
+/* .main-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -38,9 +38,9 @@ body {
 .main-content h1 {
   font-size: 80px;
   text-transform: uppercase;
-}
+} */
 
-.more-text {
+/* .more-text {
   font-weight: bolder;
   position: absolute;
   top: 0;
@@ -61,7 +61,7 @@ body {
   height: 5%;
   transform: translateX(50%);
   transform: translateY(1380%);
-}
+} */
 
 .more-text:hover,
 .arrow-more:hover {

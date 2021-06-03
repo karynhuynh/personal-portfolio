@@ -1,0 +1,56 @@
+$grayscaleFilter: grayscale(100%);
+
+.about-header {
+  font-size: 50px;
+  margin: 150px 0 70px 0;
+  text-transform: uppercase;
+}
+
+.about-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .about-intro {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15), 0px 0px 5px rgba(0, 0, 0, 0.15);
+    margin-right: 25px;
+  }
+  .about-photo img {
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .about-content {
+    max-width: 350px;
+    margin-top: 30px;
+  }
+  .skills-icons {
+    max-width: 500px;
+    margin: 0 auto;
+    filter: $grayscaleFilter;
+  }
+  .skill-icon {
+    margin: 0 0 35px 20px;
+    filter: $grayscaleFilter;
+    &:hover {
+      filter: none;
+    }
+  }
+  .about-skills {
+    margin: 50px 0 50px 60px;
+  }
+  .skills-header h4 {
+    margin-bottom: 50px;
+  }
+  .skills-header h4,
+  .about-resume h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .about-resume h4 {
+    margin: 50px 0 50px 0;
+  }
+}
