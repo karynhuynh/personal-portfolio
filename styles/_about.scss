@@ -53,3 +53,25 @@ $grayscaleFilter: grayscale(100%);
     margin: 50px 0 50px 0;
   }
 }
+
+@media (max-width: 800px) {
+  .about-header {
+    margin-top: 150px;
+  }
+  .about-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    .about-intro {
+      margin-right: 0;
+    }
+    .about-skills {
+      margin-left: 0;
+    }
+    .skills-header {
+      margin: 20px 0;
+    }
+  }
+}
