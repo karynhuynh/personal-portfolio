@@ -58,7 +58,7 @@ $grayscaleFilter: grayscale(100%);
 
 @media (max-width: 800px) {
   .about-header {
-    margin-top: 150px;
+    margin-top: 50px;
   }
   .about-container {
     flex-direction: column;
@@ -68,12 +68,16 @@ $grayscaleFilter: grayscale(100%);
     padding: 0;
     .about-intro {
       margin-right: 0;
+      max-width: 350px;
     }
     .about-skills {
       margin-left: 0;
-    }
-    .skills-header {
-      margin: 20px 0;
+      .skills-header {
+        margin: 20px 0;
+      }
+      .skills-icons {
+        max-width: 350px;
+      }
     }
   }
 }
