@@ -1,30 +1,37 @@
-$margin: 70px 0;
-
-@import "./navbar";
-
 .connect-information {
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: $boxShadow;
   border-radius: 10px;
   display: block;
-  margin: 0 auto;
+  margin: 100px auto;
   text-align: center;
   flex-wrap: wrap;
-  max-width: 500px;
-  margin-top: 50px;
-  padding: 30px;
+  max-width: 450px;
+  padding: 40px;
   transition: 0.5s;
   &:hover {
     transform: translateY(-25px);
   }
   h1 {
-    margin: $margin;
+    margin: 30px 0 50px 0;
     text-transform: uppercase;
   }
+  p {
+    margin: 30px 0;
+    font-weight: bolder;
+  }
+  .email-icon {
+    color: black;
+    margin-right: 10px;
+    font-size: 20px;
+    &:hover {
+      color: #5e6043;
+    }
+  }
   .connect-icons {
-    font-size: 30px;
+    font-size: 20px;
     color: #000;
+    margin: 30px 0;
     padding: 0px 20px;
-    margin: $margin;
     &:hover {
       color: #5e6043;
     }
