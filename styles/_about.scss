@@ -31,13 +31,13 @@
   .about-skills {
     margin-left: 50px;
     .skills-header h4 {
-      margin: 10px 0 35px 0;
+      margin-bottom: 35px;
     }
     .skills-icons {
       max-width: 500px;
       margin: 0 auto;
       .skill-icon {
-        margin: 0 0 25px 20px;
+        margin: 0 0 35px 15px;
         filter: $grayscaleFilter;
         &:hover {
           filter: none;
@@ -50,7 +50,7 @@
       text-transform: uppercase;
     }
     .about-resume h4 {
-      margin: 15px 0 30px 0;
+      margin: 30px 0;
     }
   }
 }
