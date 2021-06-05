@@ -20,20 +20,20 @@
     font-weight: bolder;
   }
   .email-icon {
-    color: black;
+    color: $standardColor;
     margin-right: 10px;
     font-size: 20px;
     &:hover {
-      color: #5e6043;
+      color: $firstColor;
     }
   }
   .connect-icons {
     font-size: 20px;
-    color: #000;
+    color: $standardColor;
     margin: 30px 0;
     padding: 0px 20px;
     &:hover {
-      color: #5e6043;
+      color: $firstColor;
     }
   }
 }
