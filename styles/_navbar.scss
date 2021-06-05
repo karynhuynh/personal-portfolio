@@ -6,9 +6,9 @@ nav {
   z-index: 100;
   a {
     text-decoration: none;
-    color: #000;
+    color: $standardColor;
     &:hover {
-      color: #5e6043;
+      color: $firstColor;
       transition: all 0.15s ease-in-out;
     }
   }
@@ -20,12 +20,15 @@ nav {
     display: inline;
     list-style: none;
     line-height: 30px;
+    .active {
+      color: $firstColor;
+    }
     a {
       margin-left: 40px;
       text-decoration: none;
-      color: #000;
+      color: $standardColor;
       &:hover {
-        color: #5e6043;
+        color: $firstColor;
         transition: all 0.15s ease-in-out;
       }
     }

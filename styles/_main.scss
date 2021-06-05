@@ -1,29 +1,17 @@
 .main-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  @include position(50%);
   transform: translateX(50%);
-  height: 50%;
-  z-index: 100;
-  transform: translateY(65%);
+  transform: translateY(60%);
   text-align: center;
   z-index: 100;
   h1 {
     font-size: 80px;
     text-transform: uppercase;
   }
-  // .more-text {
-  //   @include position;
-  //   font-weight: bolder;
-  //   height: 5%;
-  //   transform: translateY(1280%);
-  // }
-  // .arrow-more {
-  //   @include position;
-  //   color: #000;
-  //   font-size: 30px;
-  //   height: 5%;
-  //   transform: translateY(1380%);
-  // }
+}
+
+@media (max-width: 800px) {
+  .main-content {
+    transform: translateY(45%);
+  }
 }

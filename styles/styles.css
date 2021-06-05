@@ -9,6 +9,62 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0;
+  font-weight: bolder;
+  z-index: 100;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover {
+  color: #5e6043;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 30px;
+}
+
+nav li .active {
+  color: #5e6043;
+}
+
+nav li a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: #000;
+}
+
+nav li a:hover {
+  color: #5e6043;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+@media (max-width: 800px) {
+  nav li a {
+    margin-left: 15px;
+  }
+}
+
 .main-content {
   position: absolute;
   top: 0;
@@ -18,8 +74,8 @@ body {
           transform: translateX(50%);
   height: 50%;
   z-index: 100;
-  -webkit-transform: translateY(65%);
-          transform: translateY(65%);
+  -webkit-transform: translateY(60%);
+          transform: translateY(60%);
   text-align: center;
   z-index: 100;
 }
@@ -29,159 +85,16 @@ body {
   text-transform: uppercase;
 }
 
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 30px 0;
-  font-weight: bolder;
-  z-index: 100;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-}
-
-nav a:hover {
-  color: #5e6043;
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 30px;
-}
-
-nav li a {
-  margin-left: 40px;
-  text-decoration: none;
-  color: #000;
-}
-
-nav li a:hover {
-  color: #5e6043;
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
-}
-
 @media (max-width: 800px) {
-  nav li a {
-    margin-left: 15px;
-  }
-}
-
-.connect-information {
-  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  max-width: 500px;
-  margin-top: 50px;
-  padding: 30px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.connect-information:hover {
-  -webkit-transform: translateY(-25px);
-          transform: translateY(-25px);
-}
-
-.connect-information h1 {
-  margin: 70px 0;
-  text-transform: uppercase;
-}
-
-.connect-information .connect-icons {
-  font-size: 30px;
-  color: #000;
-  padding: 0px 20px;
-  margin: 70px 0;
-}
-
-.connect-information .connect-icons:hover {
-  color: #5e6043;
-}
-
-@media (max-width: 800px) {
-  .connect-information {
-    max-width: 350px;
-  }
-  .connect-information h5 {
-    font-size: 16px;
-  }
-}
-
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 30px 0;
-  font-weight: bolder;
-  z-index: 100;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-}
-
-nav a:hover {
-  color: #5e6043;
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 30px;
-}
-
-nav li a {
-  margin-left: 40px;
-  text-decoration: none;
-  color: #000;
-}
-
-nav li a:hover {
-  color: #5e6043;
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
-}
-
-@media (max-width: 800px) {
-  nav li a {
-    margin-left: 15px;
+  .main-content {
+    -webkit-transform: translateY(45%);
+            transform: translateY(45%);
   }
 }
 
 .about-header {
   font-size: 50px;
-  margin: 70px 0;
+  margin: 80px 0;
   text-transform: uppercase;
 }
 
@@ -201,8 +114,8 @@ nav li a:hover {
 .about-container .about-intro {
   padding: 30px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05), 0px 0px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05), 0px 0px 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.15);
   margin-right: 25px;
 }
 
@@ -218,38 +131,42 @@ nav li a:hover {
   margin-top: 30px;
 }
 
-.about-container .skills-icons {
+.about-container .about-content h2 {
+  font-weight: bolder;
+}
+
+.about-container .about-skills {
+  margin-left: 50px;
+}
+
+.about-container .about-skills .skills-header h4 {
+  margin-bottom: 35px;
+}
+
+.about-container .about-skills .skills-icons {
   max-width: 500px;
   margin: 0 auto;
 }
 
-.about-container .skill-icon {
-  margin: 0 0 35px 20px;
+.about-container .about-skills .skills-icons .skill-icon {
+  margin: 0 0 30px 20px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
 
-.about-container .skill-icon:hover {
+.about-container .about-skills .skills-icons .skill-icon:hover {
   -webkit-filter: none;
           filter: none;
 }
 
-.about-container .about-skills {
-  margin: 50px 0 50px 60px;
-}
-
-.about-container .skills-header h4 {
-  margin-bottom: 50px;
-}
-
-.about-container .skills-header h4,
-.about-container .about-resume h4 {
+.about-container .about-skills .skills-header h4,
+.about-container .about-skills .about-resume h4 {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.about-container .about-resume h4 {
-  margin: 50px 0 50px 0;
+.about-container .about-skills .about-resume h4 {
+  margin: 0 0 30px 0;
 }
 
 @media (max-width: 800px) {
@@ -278,7 +195,7 @@ nav li a:hover {
     margin-left: 0;
   }
   .about-container .about-skills .skills-header {
-    margin: 20px 0;
+    margin: 50px 0;
   }
   .about-container .about-skills .skills-icons {
     max-width: 350px;
@@ -287,7 +204,7 @@ nav li a:hover {
 
 .work-main-header {
   font-size: 50px;
-  margin: 70px 0;
+  margin: 80px 0;
   text-transform: uppercase;
 }
 
@@ -374,7 +291,7 @@ nav li a:hover {
           transform: translateX(-300px);
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
-  color: black;
+  color: #000;
 }
 
 .work-container .work:hover .work-info .content {
@@ -397,18 +314,65 @@ nav li a:hover {
   .work-main-header {
     margin: 50px 0;
   }
-  .work-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0;
+}
+
+.connect-information {
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  display: block;
+  margin: 100px auto;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 450px;
+  padding: 40px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.connect-information:hover {
+  -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
+}
+
+.connect-information h1 {
+  margin: 30px 0 50px 0;
+  text-transform: uppercase;
+}
+
+.connect-information p {
+  margin: 30px 0;
+  font-weight: bolder;
+}
+
+.connect-information .email-icon {
+  color: black;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.connect-information .email-icon:hover {
+  color: #5e6043;
+}
+
+.connect-information .connect-icons {
+  font-size: 20px;
+  color: #000;
+  margin: 30px 0;
+  padding: 0px 20px;
+}
+
+.connect-information .connect-icons:hover {
+  color: #5e6043;
+}
+
+@media (max-width: 800px) {
+  .connect-information {
+    max-width: 350px;
+  }
+  .connect-information h5 {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
