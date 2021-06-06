@@ -93,7 +93,7 @@ nav li a:hover {
 }
 
 @media (max-width: 800px) {
-  .introduction {
+  .main-content .introduction {
     padding-top: 100px;
   }
 }
