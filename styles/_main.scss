@@ -1,21 +1,23 @@
 .main-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  transform: translateX(50%);
-  transform: translateY(60%);
+  height: 100vh;
+  background: url(../images/main-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   z-index: 100;
+  .introduction {
+    padding-top: 150px;
+  }
   h1 {
-    font-size: 80px;
     text-transform: uppercase;
+    font-size: 75px;
+    text-align: center;
   }
 }
 
 @media (max-width: 800px) {
-  .main-content {
-    transform: translateY(45%);
+  .introduction {
+    padding-top: 100px;
   }
 }

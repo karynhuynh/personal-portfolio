@@ -14,7 +14,7 @@
 
 .work-container {
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   max-width: 1200px;
   position: relative;
   display: flex;
@@ -28,7 +28,6 @@
     height: 330px;
     margin: 20px;
     overflow: hidden;
-    // border-radius: 5px;
   }
   .work-image img {
     @include position();
