@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: $thirdColor;
+  color: $standardColor;
+  padding: 30px 3em;
+  p {
+    margin-bottom: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: $standardColor;
+    padding-right: 10px;
+    &:hover {
+      color: $firstColor;
+    }
+  }
+  .top a {
+    color: $standardColor;
+    &:hover {
+      color: $firstColor;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .top {
+    display: none;
+  }
+}
