@@ -1,9 +1,10 @@
 footer {
   display: flex;
   justify-content: space-between;
-  // background: $thirdColor;
+  background: $thirdColor;
   color: $standardColor;
-  padding: 30px 3.5em;
+  padding: 30px 6.5em;
+  z-index: 100;
   p {
     margin-bottom: 5px;
   }
